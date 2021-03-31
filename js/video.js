@@ -35,8 +35,7 @@ document.querySelector("#skip").addEventListener("click", function() {
 		video.currentTime = 0;
 		console.log("Start of Video");
 	}
-	console.log(video.duration)
-	console.log("Current Viewing Location" + video.currentTime);
+	console.log("Current Viewing Location " + video.currentTime);
 	video.play();
 });
 
